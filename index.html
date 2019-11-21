@@ -1,0 +1,109 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:24.1px;color:rgb(0,255,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:24.1px;color:rgb(0,255,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:11.1px;color:rgb(0,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:11.1px;color:rgb(0,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:11.1px;color:rgb(0,255,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:11.1px;color:rgb(0,255,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:11.1px;color:rgb(0,255,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:11.1px;color:rgb(0,255,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="assets/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-298px;top:0px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="assets/background1.jpg" width=596 height=843></div>
+<div style="position:absolute;left:259.72px;top:71.31px" class="cls_002"><span class="cls_002">NGINX</span></div>
+<div style="position:absolute;left:216.93px;top:137.62px" class="cls_003"><span class="cls_003">¿Que es nginx y como funciona?</span></div>
+<div style="position:absolute;left:76.56px;top:167.65px" class="cls_004"><span class="cls_004">Nginx, pronunciado como “engine-ex”, es un servidor web de código abierto que, desde su</span></div>
+<div style="position:absolute;left:86.32px;top:182.66px" class="cls_004"><span class="cls_004">éxito inicial como servidor web, ahora también es usado como proxy inverso, cache de</span></div>
+<div style="position:absolute;left:221.44px;top:197.67px" class="cls_004"><span class="cls_004">HTTP, y balanceador de carga.</span></div>
+<div style="position:absolute;left:73.56px;top:227.70px" class="cls_004"><span class="cls_004">Nginx está diseñado para ofrecer un </span><span class="cls_005">bajo uso de memoria</span><span class="cls_004"> y alta concurrencia. En lugar de</span></div>
+<div style="position:absolute;left:77.31px;top:242.71px" class="cls_004"><span class="cls_004">crear nuevos procesos para cada solicitud web, Nginx usa un enfoque asincrónico basado</span></div>
+<div style="position:absolute;left:149.38px;top:257.72px" class="cls_004"><span class="cls_004">en eventos donde las solicitudes se manejan en un solo hilo.</span></div>
+<div style="position:absolute;left:78.07px;top:284.74px" class="cls_004"><span class="cls_004">Con Nginx, un proceso maestro puede controlar múltiples procesos de trabajo. El proceso</span></div>
+<div style="position:absolute;left:75.81px;top:299.76px" class="cls_004"><span class="cls_004">maestro mantiene los procesos de trabajo, y son estos lo que hacen el procesamiento real.</span></div>
+<div style="position:absolute;left:141.87px;top:326.78px" class="cls_004"><span class="cls_004">Algunas características comunes que se ven en Nginx incluyen:</span></div>
+<div style="position:absolute;left:90.08px;top:353.80px" class="cls_004"><span class="cls_004">●  Proxy inverso con caché</span></div>
+<div style="position:absolute;left:90.08px;top:368.81px" class="cls_004"><span class="cls_004">●  IPv6</span></div>
+<div style="position:absolute;left:90.08px;top:383.83px" class="cls_004"><span class="cls_004">●  Balanceo de carga</span></div>
+<div style="position:absolute;left:90.08px;top:398.84px" class="cls_004"><span class="cls_004">●  Soporte FastCGI con almacenamiento en caché</span></div>
+<div style="position:absolute;left:90.08px;top:413.85px" class="cls_004"><span class="cls_004">●  Websockets</span></div>
+<div style="position:absolute;left:90.08px;top:428.86px" class="cls_004"><span class="cls_004">●  Manejo de archivos estáticos, archivos de índice y auto indexación</span></div>
+<div style="position:absolute;left:90.08px;top:443.88px" class="cls_004"><span class="cls_004">●  TLS / SSL con SNI</span></div>
+<div style="position:absolute;left:270.98px;top:497.92px" class="cls_003"><span class="cls_003">Instalación</span></div>
+<div style="position:absolute;left:152.38px;top:527.95px" class="cls_004"><span class="cls_004">Para instalar facilmente nginx ejecutamos estos comandos:</span></div>
+<div style="position:absolute;left:248.46px;top:557.97px" class="cls_004"><span class="cls_004">sudo apt-get update</span></div>
+<div style="position:absolute;left:236.45px;top:572.99px" class="cls_004"><span class="cls_004">sudo apt-get install nginx</span></div>
+<div style="position:absolute;left:189.91px;top:603.01px" class="cls_004"><span class="cls_004">Para ejecutar el servidor de nginx usaremos</span></div>
+<div style="position:absolute;left:240.20px;top:618.02px" class="cls_004"><span class="cls_004">sudo service nginx start</span></div>
+<div style="position:absolute;left:282.24px;top:648.05px" class="cls_003"><span class="cls_003">Sitio 1</span></div>
+<div style="position:absolute;left:88.57px;top:678.07px" class="cls_004"><span class="cls_004">Para el directorio donde estaran los ficheros se reutilizara el que se uso en la practica</span></div>
+<div style="position:absolute;left:142.62px;top:693.09px" class="cls_004"><span class="cls_004">anterior de apache pero en caso de no haberlo creado ejecutar:</span></div>
+<div style="position:absolute;left:225.19px;top:723.11px" class="cls_004"><span class="cls_004">sudo mkdir /var/www/sitioPhp</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:853px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="assets/background2.jpg" width=596 height=843></div>
+<div style="position:absolute;left:198.92px;top:71.57px" class="cls_004"><span class="cls_004">Y dentro crearemos el fichero index.php.</span></div>
+<div style="position:absolute;left:213.18px;top:101.59px" class="cls_004"><span class="cls_004">touch /var/www/sitioPhp/index.php</span></div>
+<div style="position:absolute;left:164.39px;top:166.14px" class="cls_004"><span class="cls_004">Ahora vamos a crear el site en sites-available de nginx</span></div>
+<div style="position:absolute;left:183.90px;top:253.22px" class="cls_004"><span class="cls_004">Y vamos a configurar las directivas necesarias</span></div>
+<div style="position:absolute;left:79.57px;top:283.24px" class="cls_004"><span class="cls_004">Para que el servidor escuche desde el puerto 82 vamos a cambiar el 80 de default por 82</span></div>
+<div style="position:absolute;left:189.91px;top:352.30px" class="cls_004"><span class="cls_004">Vamos a configurar el directorio root del site</span></div>
+<div style="position:absolute;left:171.14px;top:474.65px" class="cls_004"><span class="cls_004">Para poder usar php vamos a necesitar instalar fpm</span></div>
+<div style="position:absolute;left:222.19px;top:489.67px" class="cls_004"><span class="cls_004">sudo apt-get install php7.2-fpm</span></div>
+<div style="position:absolute;left:247.71px;top:504.68px" class="cls_004"><span class="cls_004">Y usar esta directiva</span></div>
+<div style="position:absolute;left:172.64px;top:618.02px" class="cls_004"><span class="cls_004">Ahora vamos a redirigir los logs a /etc/logs/sitioPhp</span></div>
+<div style="position:absolute;left:156.88px;top:687.83px" class="cls_004"><span class="cls_004">No olvides de crear el directorio o no apareceran los logs.</span></div>
+<div style="position:absolute;left:227.44px;top:717.86px" class="cls_004"><span class="cls_004">sudo mkdir /etc/logs/sitioPhp</span></div>
+<div style="position:absolute;left:117.10px;top:747.88px" class="cls_004"><span class="cls_004">Esta es la configuración para la compresion de ficheros superiores a 80kb</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:1706px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="assets/background3.jpg" width=596 height=843></div>
+<div style="position:absolute;left:96.83px;top:181.91px" class="cls_004"><span class="cls_004">Para la pagina de error 404 primero vamos a crear la pagina que se visualizara en</span></div>
+<div style="position:absolute;left:255.96px;top:196.92px" class="cls_004"><span class="cls_004">/var/www/errores</span></div>
+<div style="position:absolute;left:151.63px;top:274.24px" class="cls_004"><span class="cls_004">Y vamos a configurar la redireccion a esta pagina en el site.</span></div>
+<div style="position:absolute;left:133.61px;top:379.32px" class="cls_004"><span class="cls_004">Ahora vamos a crear el directiorio public_files en /var/www/sitioPhp</span></div>
+<div style="position:absolute;left:75.81px;top:474.65px" class="cls_004"><span class="cls_004">Ahora hay que configurar el site para que muestre los archivos de dentro de public_files en</span></div>
+<div style="position:absolute;left:265.72px;top:489.67px" class="cls_004"><span class="cls_004">formato json.</span></div>
+<div style="position:absolute;left:74.31px;top:596.26px" class="cls_004"><span class="cls_004">Finalmente vamos a configurar el site para bloquear cualquier path que contenga la palabra</span></div>
+<div style="position:absolute;left:281.49px;top:611.27px" class="cls_004"><span class="cls_004">private</span></div>
+<div style="position:absolute;left:78.07px;top:720.86px" class="cls_004"><span class="cls_004">Con todos estos pasos nuestro servidor php deberia estar funcionando correctamente con</span></div>
+<div style="position:absolute;left:195.91px;top:735.87px" class="cls_004"><span class="cls_004">todas las especificaciónes que se pedian.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:2559px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="assets/background4.jpg" width=596 height=843></div>
+<div style="position:absolute;left:239.45px;top:71.56px" class="cls_004"><span class="cls_004">Vamos a habilitar el site</span></div>
+<div style="position:absolute;left:231.94px;top:104.59px" class="cls_004"><span class="cls_004">Vamos a realizar un restart</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:3412px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="assets/background5.jpg" width=596 height=843></div>
+<div style="position:absolute;left:282.24px;top:71.57px" class="cls_003"><span class="cls_003">Sitio 2</span></div>
+<div style="position:absolute;left:105.84px;top:101.59px" class="cls_004"><span class="cls_004">Para este site voy a reutilizar el servidor de node creado en la practica anterior</span></div>
+<div style="position:absolute;left:87.82px;top:314.02px" class="cls_004"><span class="cls_004">Igual que en el site anterior creamos la carpeta sitioNode en /etc/nginx/sites-available/</span></div>
+<div style="position:absolute;left:136.61px;top:365.81px" class="cls_004"><span class="cls_004">Vamos a volver a cambiar el puerto para que ahora escuche el 81</span></div>
+<div style="position:absolute;left:162.89px;top:437.12px" class="cls_004"><span class="cls_004">Establecemos como directiorio root /var/www/sitioNode</span></div>
+<div style="position:absolute;left:243.20px;top:569.98px" class="cls_004"><span class="cls_004">Configuramos los logs</span></div>
+<div style="position:absolute;left:155.38px;top:642.79px" class="cls_004"><span class="cls_004">Reutilizaremos la pagina de 404.html usada anteriormente</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:4265px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="assets/background6.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.56px" class="cls_004"><span class="cls_004">Configuraremos el proxy para redirigir el trafico al puerto 3000 que es donde se encuentra el</span></div>
+<div style="position:absolute;left:256.72px;top:86.58px" class="cls_004"><span class="cls_004">servidor de node</span></div>
+<div style="position:absolute;left:100.58px;top:210.43px" class="cls_004"><span class="cls_004">Finalmente configuraremos la redirección de documentación a la pagina de node</span></div>
+<div style="position:absolute;left:73.56px;top:265.23px" class="cls_004"><span class="cls_004">Ahora ya podemos crear el enlace simbolico y activar el servidor. No te olvides de encender</span></div>
+<div style="position:absolute;left:249.21px;top:280.24px" class="cls_004"><span class="cls_004">el servidor de node.</span></div>
+</div>
+
+</body>
+</html>
